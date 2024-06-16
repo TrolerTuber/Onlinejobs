@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+/** General Selectors*/
+body {
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+}
+/** General Selectors*/
+
+/*? ID Selector */
+#JobsCounter
+{
+    position: absolute;
+    bottom: 10%;
+    right: 0.3%;
+}
+#playerscounter
+{
+    letter-spacing: 0px;
+}
+/*? ID Selectors */
+
+.icono {
+    font-size: .75vw;
+}
+/*! Class Selectors */
+.textstat 
+{
+    width: 2vh;
+    float: right;
+    text-align: right;
+    font-size: 1.0vh;
+    margin-top: -0.25vh;
+
+}
+.JobCounter {
+    color: white;
+    padding: 0.3vw;
+    background-color: rgba(0, 0, 0, .4);
+
+    box-shadow: 0 0 0 .1vw rgb(2, 147, 187);
+    text-align: center;
+    margin-top: .4vw;
+
+    border-radius: 0.4vw;
+    font-size: 0.7vw;
+    letter-spacing: 0.4vw;
+}
+.IdCounter {
+    background-color: rgba(0, 0, 0, .4);
+    box-shadow: 0 0 0 .07vw rgb(2, 147, 187);
+    color: white;
+    
+    padding: 0.35vh;
+    text-align: center;
+    margin-top: 0.3vh;
+
+    border-radius: 0.4vw;
+    font-size: 0.7vw;
+    letter-spacing: 0.1vw;
+}
+.counter
+{
+    letter-spacing: 0px;
+}
+/*! Class Selectors */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	font-family: 'Do Hyeon', sans-serif;
+}
